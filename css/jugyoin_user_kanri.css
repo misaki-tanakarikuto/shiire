@@ -1,0 +1,36 @@
+.div-tbl {
+ display:block;
+ overflow-y: auto;
+ overflow-x: visible;
+ height:600px;
+}
+.div-tbl th {
+  position: sticky;
+  top: -1px;
+  z-index:2;
+}
+
+.modal-dialog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+  margin: auto;
+  pointer-events: none
+}
+.modal-content {
+  pointer-events: all;
+}
+.data {
+  cursor:pointer;
+}
+input.pluralBtn {
+  font-weight:bold;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+}

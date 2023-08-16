@@ -1,0 +1,313 @@
+
+/* 画面幅横線 */
+.border_disp_max{
+	width: 100%;
+	border-bottom: 1px solid Gainsboro;
+	margin: 15px 0;
+}
+
+/* 画面幅横線（ハーフ） */
+.border_disp_half{
+	width: 50%;
+	border-bottom: 1px solid Gainsboro;
+	margin: 15px 0;
+}
+
+.back_color_00{
+	background-color:#FFFCE3;
+}
+
+.back_color_01{
+	background-color:#ffffff;
+/*	background-color:#7EB1DC;*/
+/*	background-color:#EAEAF4;*/
+}
+
+.back_color_02{
+	background-color:#F4F9E2;
+}
+
+.back_color_03{
+	background-color:#F3DFEE;
+}
+
+.back_color_04{
+	background-color:#D8F3E7;
+}
+
+.back_color_05{
+	background-color:#F7E0EC;
+}
+
+.back_color_06{
+	background-color:#F9E2E5;
+}
+
+.back_color_07{
+	background-color:#DBF0F6;
+}
+
+.back_color_08{
+	background-color:#FDF5E2;
+}
+
+.back_color_09{
+	background-color:#DCEEF7;
+}
+
+.back_color_10{
+	background-color:#ffffff;
+}
+
+.color-primary-0 { color: #337BB7 }	/* Main Primary color */
+.color-primary-1 { color: #7EB1DC }
+.color-primary-2 { color: #5393C8 }
+.color-primary-3 { color: #1265AB }
+.color-primary-4 { color: #094B83 }
+
+
+.text_align_center{
+	text-align: center;
+}
+
+.text_align_right{
+	text-align: right;
+}
+
+.text_align_left{
+	text-align: left;
+}
+
+.font_size_500{
+	font-size: 500%;
+}
+
+.font_size_14em{
+	font-size: 1.4em;
+}
+
+.font_size_07em{
+	font-size: 0.7em;
+}
+
+.font_size_08em{
+	font-size: 0.8em;
+}
+
+.font_color_orange{
+	color: orange;
+}
+
+.font_color_silver{
+	color: silver;
+}
+
+.font_color_red{
+	color: red;
+}
+
+.font_color_green{
+	color: green;
+}
+
+.font_weight_bolder{
+	font-weight: bolder;
+}
+
+.display_none{
+	display: none;
+}
+
+.display_inline{
+	display: inline;
+}
+
+.display_block{
+	display: block;
+}
+
+.display_tablerow{
+/*	display: block;*/
+	display: table-row;
+}
+
+th{
+	text-align: center;
+	background-color: #e8e8e8;
+}
+
+.margin_top_7{
+	margin-top: 7px;
+}
+
+.relative{
+	position: relative;
+}
+
+/*ブロック要素上下中央寄せ*/
+.vertical_middle{
+
+  vertical-align: middle;
+
+
+/*
+	padding: 10px 40px;
+	border: 1px black solid;
+	text-align: center;
+*/
+/*
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+*/
+/*	background-color: green;*/
+/*	color: red;*/
+}
+
+.paddinng_top09{
+	padding: 0.9em 0 0;
+}
+
+.width_100{
+	width: 100%;
+}
+
+.font-size-07em{
+	font-size: 0.7em;
+}
+
+.vertical_align_middle{
+	vertical-align: bottom;
+/*	vertical-align: middle;*/
+}
+
+/*th{*/
+/*	vertical-align: middle;*/
+/*}*/
+
+
+
+
+/* .table > tbody > tr > td.bd_bottm_hidden{
+	border-bottom: hidden;
+	background-color: white;
+} */
+
+
+.table{
+	/*table外枠の線を表示させる。doubleは3px以上じゃないとちゃんと表示されない*/
+	border-color: grey;
+/*	border-style: double;*/
+/*	border-width: 3px;*/
+}
+
+.table > thead > tr > th{
+	/*テーブルのヘッダー部分の文字色*/
+	border-color: grey;
+/*	vertical_middle;*/
+/*	border-width; 4px;*/
+}
+
+.table > tbody > tr > th{
+	/*テーブルのボディ部分の文字色*/
+	border-color: grey;
+/*	border-width; 4px;*/
+}
+
+.table > tbody > tr > td{
+	/*テーブルのボディ部分の文字色*/
+	border-color: grey;
+/*	border-width; 4px;*/
+}
+
+/*セルの上部を二重線にする（th）*/
+/* .table > tbody > tr > th.border_top_double{
+	border-top-color: grey;
+	border-top-style: double;
+	border-top-width: 3px;
+} */
+
+/*セルの上部を二重線にする（td）*/
+/* .table > tbody > tr > td.border_top_double{
+	border-top-color: grey;
+	border-top-style: double;
+	border-top-width: 3px;
+} */
+
+/*セルの右線を二重線にする（thead-th）*/
+/* .table > thead > tr > th.border_right_double{
+	border-right-color: grey;
+	border-right-style: double;
+	border-right-width: 5px;
+} */
+
+/*セルの右線を二重線にする（tbody-th）*/
+/* .table > tbody > tr > th.border_right_double{
+	border-right-color: grey;
+	border-right-style: double;
+	border-right-width: 5px;
+} */
+
+/*セルの右線を二重線にする（tbody-td）*/
+/* .table > tbody > tr > td.border_right_double{
+	border-right-color: grey;
+	border-right-style: double;
+	border-right-width: 5px;
+} */
+
+/*.table > thead > tr > th{*/
+/*	border-width: 3px;*/
+/*	border-style: double;*/
+/*	border-color: red;*/
+/*	border-top-style: double;*/
+/*}*/
+
+/* 給与入力画面の残業代入力モーダル */
+/* .zangyo_modal{
+	min-width:75%;
+	max-width: 90%;
+	width: 200%;
+} */
+
+.width_25p{
+	width: 25%;
+}
+
+/*.width_40p{*/
+/*	width: 100px;*/
+/*}*/
+
+.margin_t10_b10{
+	margin: 10px 0;
+}
+
+.margin_t20_b20{
+	margin: 20px 0;
+}
+
+.border_none{
+	border: none;
+}
+
+/* チェックボックスをラベルを含んだ状態ですべて指マークに変更 */
+label, input[type='checkbox'] {
+    cursor: pointer;
+}
+
+/* 従業員一覧画面の上の表の「最終更新者」列 */
+.last_update_user{
+	display: none;
+}
+
+header {
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 40px;
+	/* background: #eee; */
+	box-sizing: border-box;
+  }
+  
