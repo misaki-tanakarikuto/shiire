@@ -21,6 +21,10 @@ $result = pg_query("SELECT	konyusaki_nm FROM mst_konyusaki
 where   del_flg = '0'");
 
 
+$busho = pg_query("SELECT	busho_nm FROM mst_busho
+where   del_flg = '0'");
+    $busho_row  =  pg_fetch_all($busho);
+
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -78,6 +82,34 @@ where   del_flg = '0'");
 	    <!-- <script>
 		document.getElementById("chumon_konyu_date").focus();
 		</script> -->
+		<table class="table table-bordered">
+        <tr>
+          <td class="text-center header ">選択</td>
+          <td class="text-center header ">購入先</td>
+          <td class="text-center header ">支店名</td>
+          <td class="text-center header ">品目</td>
+          <td class="text-center header ">品種</td>
+          <td class="text-center header ">色</td>
+          <td class="text-center header ">階級</td>
+          <td class="text-center header ">等級</td>
+          <td class="text-center header ">輪数</td>
+          <td class="text-center header ">長さ</td>
+          <td class="text-center header ">入数</td>
+          <td class="text-center header ">口数</td>
+          <td class="text-center header ">残数</td>
+		  <? 
+          foreach($busho_row as $busho_rows){
+          ?>
+		  <td class="text-center header "><?= $busho_rows['busho_nm']?></td>
+		  <?
+		  }
+		  ?>
+		  <td class="text-center header ">単価</td>
+		  <td class="text-center header ">産地１</td>
+		  <td class="text-center header ">産地２</td>
+</table>
+
+
 
 		<!-- 注文購入日を新規追加するモーダル -->
 		<div class="modal fade" id="add_date_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
